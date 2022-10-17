@@ -189,3 +189,65 @@ address {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.button-placement {
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.section-placement {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-placement > .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.filter-placement {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-placement > .item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card-set-item {
+  flex-basis: calc((100% - 60px) / 3);
+  padding: 30px;
+}
+
+.logo-footer-placement {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.address-footer-placement {
+  padding-bottom: 60px;
+}
+
+.page-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu > .nav-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+}
